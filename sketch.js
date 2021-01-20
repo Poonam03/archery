@@ -83,7 +83,15 @@ if(player.visible===true)
   arrow.display();
   chain.display();
 }
-
+if(arrow.body.position.x>920 && arrow.body.position.x<990 && arrow.body.position.y<500  && arrow.body.position.y>210 ||
+    arrow.body.position.x>1124 && arrow.body.position.x<1166 && arrow.body.position.y<500  && arrow.body.position.y>210 ||
+    arrow.body.position.x>1003 && arrow.body.position.x<1160 && arrow.body.position.y<258  && arrow.body.position.y>208 ||
+    arrow.body.position.x>1003 && arrow.body.position.x<1120 && arrow.body.position.y<500  && arrow.body.position.y>446)
+  {
+    
+    score+=20
+   
+  }
 }
 function mouseDragged(){
   if(gameState!=="launched")
