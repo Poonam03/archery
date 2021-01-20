@@ -28,8 +28,8 @@ display(){
         this.button2.style('width', '200px');
         this.button2.style('height', '40px');
         this.button2.style('background', 'lightpink');
-
-        this.button.mousePressed(() => {
+        
+        this.button.mousePressed(()=> {
             this.input.hide();
             this.button.hide();
             

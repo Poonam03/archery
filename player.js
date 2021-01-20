@@ -3,9 +3,9 @@ class Player{
         var options = {
             isStatic:true
         }
-        this.body = Bodies.rectangle(100,displayHeight/2,300,300, options);
+        this.body = Bodies.rectangle(100,windowHeight/2,300,300, options);
         this.x=100;
-        this.y=displayHeight/2
+        this.y=windowHeight/2
         this.width = 300;
         this.height = 300;
         this.image = loadImage("player.png");
